@@ -5,3 +5,24 @@ You generate an empty git repository. It has no commits. The directory will be .
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is the location where you send files that you want uploaded to the repository. It is the intermediate location between your working directory and the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can use git status to make sure I'm only commiting one file at a time.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches allow for specific new features. This way when you mess up a certain feature you can go to that branch and there will be fewer changes to filter through to know what made the new bug.
+
+How do the diagrams help you visualize the branch structure?
+
+They show how each branch is connected to the master branch.
+
+What is the result of mergin two branches together? Why do we represent it in the diagram the way we do?
+
+Resulting the branches together merges the differences between both branches and their history.
+
+What are the pros and cons of Git's automatic merging vs always doing merges manually?
+
+Pros: If you forget to merge, it'll have done it for you.
+Cons: Automatic merge may merge files before the feature is ready to be merges and cause bugs on the master branch.
