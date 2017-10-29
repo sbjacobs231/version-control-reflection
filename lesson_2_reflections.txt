@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+You generate an empty git repository. It has no commits. The directory will be .git.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is the location where you send files that you want uploaded to the repository. It is the intermediate location between your working directory and the repository.
